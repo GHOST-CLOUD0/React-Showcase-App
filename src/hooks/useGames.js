@@ -17,9 +17,12 @@ export function useGames() {
 
     const deleteGame = async (id) => {
         setError("");
-
-        await deleteGameRequest(id);
-        setGames((currentGames) => currentGames.filter((game) => game.id !== id));
+        try {
+            await deleteGameRequest(id);
+            setGames((currentGames) => currentGames.filter((game) => game.id !== id));
+        } catch (err) {
+            setError(err.message);
+        }
     };
 
     return {
