@@ -3,6 +3,13 @@ import { getImageUrl } from "../imageAssets";
 import { formatPrice } from "../utils/gameUtils";
 
 export default function ProductCard({ product, onDelete }) {
+    const handleDelete = async () => {
+        try {
+            await onDelete(product.id);
+        }catch (err) {
+            console.error("Failed to delete product:", err);
+        }
+    };
     return (
         <div className="product-card">
             {product.image && (
@@ -15,7 +22,7 @@ export default function ProductCard({ product, onDelete }) {
             <h3>{product.name}</h3>
             <p>{product.description}</p>
             <p>platform: {product.platform}</p>
-            <p>Price: {formatPrice(product.price)}</p>
+            <p>price: {formatPrice(product.price)}</p>
             <div className="card-actions">
                 <Link to={`/products/${product.id}`}>View Details</Link>
                 <Link to={`/edit/${product.id}`}>Edit</Link>
