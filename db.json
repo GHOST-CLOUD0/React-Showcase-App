@@ -1,0 +1,52 @@
+{
+  "storeInfo": [
+    {
+      "name": "Game Dynasty",
+      "description": "One-stop shop for games and consoles",
+      "phoneNumber": "0712345678",
+      "id": "bS35E8JUUEM"
+    }
+  ],
+  "games": [
+    {
+      "id": "1",
+      "name": "Elden Ring",
+      "description": "Open world RPG",
+      "platform": "PC, PS4, PS5, Xbox",
+      "price": 59.99,
+      "image": "Elden Ring fan Poster, Brandon Pérez.jpeg"
+    },
+    {
+      "id": "2",
+      "name": "Grand Theft Auto V",
+      "description": "Open world action-adventure",
+      "platform": "PC, PS4, PS5, Xbox",
+      "price": 29.99,
+      "image": "Gta v poster.jpeg"
+    },
+    {
+      "id": "3",
+      "name": "The Last of Us Part II",
+      "description": "Survival horror",
+      "platform": "PC, PS4, PS5, Xbox",
+      "price": 59.99,
+      "image": "THE LAST OF US_ PART II (2020 VIDEO GAME) - ONE EYE SYMBOLISM.jpeg"
+    },
+    {
+      "id": "4",
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "description": "Open world action-adventure",
+      "platform": "PC, PS4, PS5, Xbox",
+      "price": 59.99,
+      "image": "Zelda.jpeg"
+    },
+    {
+      "id": "5",
+      "name": "The Witcher 3: Wild Hunt",
+      "description": "Open world RPG",
+      "platform": "PC, PS4, PS5, Xbox",
+      "price": 59.99,
+      "image": "101.jpeg"
+    }
+  ]
+}
