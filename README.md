@@ -1,6 +1,6 @@
 # Game Dynasty
 
-Game Dynasty is a React and Vite app for managing a small game shop catalog. Users can view games, search the catalog, see product details, add new games, edit existing games, and delete games.
+Game Dynasty is a React and Vite app for managing a small game shop. Users can view games, search, see product details, add new games, edit existing games, and delete games.
 
 ## Rubric Features
 
